@@ -2,9 +2,9 @@
 
 This project belongs to the Information Retrieval field and presents a solution for predicting the emotion of a tweet. 
 
-In this work we will focus on textual data and employ Natural Language Processing (NLP) techniques. Specifically, we will use two twitter based datasets. In order to reduce the complexity and balance the merged dataset, we discarded out tweets that were not labeled with a primary emotion according to Plutchik theory.
+In the file 'emotions_detection.ipybn' you can find all the experiments, while the files 'utils.py' and 'tuning.py' contain utility functions.
 
-Aiming at experimenting both sequence learning techniques and classical ones we decided to use three different models.
+Aiming at experimenting both sequence learning techniques and classical ones we decided to use three different Machine Learning models.
 Below you can find details about the employed architectures and hyperparameters.
 
 ### RNN based on static embeddings
